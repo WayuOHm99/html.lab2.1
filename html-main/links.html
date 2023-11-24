@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contack</title>
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <style>
+    body, html {
+    background-size: cover;
+    font-family: 'Abel', sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    img,H2{
+
+        display: inline;
+    }
+    .row {
+    display: flex;
+    }
+
+    .column {
+    flex: 50%;
+    }
+	.p {
+	margin: auto;
+	border-style: dashed;
+	width: 30%;
+	text-align: center;
+	}
+
+    </style>
+</head>
+<!-- ตั้งรูปพื้นหลังที่นี่ -->
+<body background="./bg.jpg">
+    <body bgcolor="#DADED4">
+ 
+    <div class="row">
+        <div class="column">
+            <!-- ใส่ข้อความยินดีต้อนรับทีนี่ -->
+            <img align="middle" src="./logo.png" width="35px" /> 
+            
+        </div>
+        <div class="column" align="right" style="padding-right: 20px;padding-top: 40px;">
+            <!-- ใส่ลิงก์ที่สนใจที่นี่ -->
+            <a href="index.html">HOME</a> |
+            <a href=">ABOUT ME">ABOUT ME</a> |
+            <a href="gallery.html">GALLERY</a> |
+            <a href="links.html">CONTACT</a>
+        
+        </div>
+    </div>
+    <hr/>
+    <br/>
+    <center>
+	   <!-- ใส่ลิงก์ YouTube โดย copy iframe มาวาง -->
+        <a href="https://www.youtube.com/watch?v=_nVpDz5FEmg&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbAVM9zfmzYIhrUs&index=3" target="_blank" rel="noopener noreferrer">เพลง หยุด - BURIN BOONVISUT</a>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/_nVpDz5FEmg" title="หยุด - BURIN BOONVISUT | Songtopia Livehouse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <br/><br/>
+<a href="https://www.instagram.com" target="_blank"> Instagram : mw.wayuu13</a> <br/><br/>
+<a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">Facebook : Wayu OHm</a> <br/><br/>
+
+</center>
+
+<form>
+<br/><br/>
+	<div    class="p" align="center">
+	<tr>
+	<br/><br/>
+        <form>
+        ชื่อของคุณ: <input type="text" name="firstname"><br>
+        นามสกุล: <input type="text" name="lastname">
+        </form> <br>
+
+        <br> เพศ:
+		<br/><input type="radio" name="sex" value="male"> Male <br/>
+        <input type="radio" name="sex" value="female"> Female<br/>
+        <br>งานอดิเรก:
+        <br><input type="checkbox" name="vehicle" value="Bike"> เล่นกีฬา
+        <br><input type="checkbox" name="vehicle" value="Bike"> ดูหนัง , ฟังเพลง
+        <br><input type="checkbox" name="vehicle" value="Bike"> เลี้ยงสัตว์ <br>
+        <br><input type="submit" value="ตกลง">
+<br/>
+
+	</tr>
+	 </div>
+</form> 
+
+</body>
+</html>
